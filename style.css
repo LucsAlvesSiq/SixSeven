@@ -43,3 +43,39 @@ div{
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+
+@media (max-width: 500px){
+    *{
+        font-size:120px;
+    }
+    @keyframes six {
+        0% {scale: 1.05; transform: translateY(15px);}
+        50% {scale: 0.95; transform: translateY(-15px);}
+        100% {scale: 1.05; transform: translateY(15px);}
+    }
+
+
+    @keyframes seven {
+        0% {scale: 0.95; transform: translateY(-15px);}
+        50% {scale: 1.05; transform: translateY(15px);}
+        100% {scale: 0.95; transform: translateY(-15px);}
+    }
+}
+
+@media (max-width: 250px){
+    *{
+        font-size:60px;
+    }
+    @keyframes six {
+        0% {scale: 1.05; transform: translateY(7px);}
+        50% {scale: 0.95; transform: translateY(-7px);}
+        100% {scale: 1.05; transform: translateY(7px);}
+    }
+
+
+    @keyframes seven {
+        0% {scale: 0.95; transform: translateY(-7px);}
+        50% {scale: 1.05; transform: translateY(7px);}
+        100% {scale: 0.95; transform: translateY(-7px);}
+    }
+}
