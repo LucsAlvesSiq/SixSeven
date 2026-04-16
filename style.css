@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+*{
+    font-family: "Archivo Black";
+    color: white;
+    font-size: 300px;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    display: flex;
+    
+}
+
+@keyframes six {
+    0% {scale: 1.05; transform: translateY(50px);}
+    50% {scale: 0.95; transform: translateY(-50px);}
+    100% {scale: 1.05; transform: translateY(50px);}
+}
+
+.six{
+    animation-name: six;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes seven {
+    0% {scale: 0.95; transform: translateY(-50px);}
+    50% {scale: 1.05; transform: translateY(50px);}
+    100% {scale: 0.95; transform: translateY(-50px);}
+}
+
+.seven{
+    animation-name: seven;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
